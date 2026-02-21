@@ -1,4 +1,0 @@
-name: zmk_for_keyboards
-build:
-  settings:
-    board_root: .
