@@ -18,9 +18,10 @@
 
 / {
     chosen {
+        zmk,underglow = &led_strip;
     };
 
-     conditional_layers {
+    conditional_layers {
         compatible = "zmk,conditional-layers";
         adjust_layer {
             if-layers = <FUNCTIONS NAVIGATION>;
