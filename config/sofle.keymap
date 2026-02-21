@@ -17,6 +17,10 @@
 #define SETTINGS 4
 
 / {
+    chosen {
+        zmk,underglow = &led_strip;
+    };
+
      conditional_layers {
         compatible = "zmk,conditional-layers";
         adjust_layer {
