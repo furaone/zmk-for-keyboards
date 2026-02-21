@@ -18,7 +18,6 @@
 
 / {
     chosen {
-        zmk,underglow = &led_strip;
     };
 
      conditional_layers {
