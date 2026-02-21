@@ -26,7 +26,8 @@
 };
 / {
     chosen {
-      zmk,battery = &vbatt;
+        zmk,battery = &vbatt;
+        zmk,underglow = &led_strip;
     };
 
     vbatt: vbatt {
